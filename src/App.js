@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import {List} from './Views/List';
+//components
+// import InputPost from "./Components/InputPost";
+// import ListAllPost from "./Components/ListAllPost";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <Fragment>
+    //   <div className="container">
+    //     <ListAllPost/>
+    //     <InputPost/>
+    //   </div>
+      
+    // </Fragment>
+  
+  <div>
+    <List/>
+  </div>
+
   );
 }
 
